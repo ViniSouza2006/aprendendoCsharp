@@ -14,6 +14,7 @@ namespace OlaMundo
             Console.Write("Hello World");
             Console.Read();
             Console.ReadKey();
+            Console.WriteLine("Teste");
         }
     }
 }
