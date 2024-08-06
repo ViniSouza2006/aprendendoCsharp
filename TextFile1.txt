@@ -1,0 +1,1 @@
+Para adicionar um Arquivo.txt clique com o botão direito em cima da solução em ache o botão adicionar Novo Item e selecione o Arquivo.txt

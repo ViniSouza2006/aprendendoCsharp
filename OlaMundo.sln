@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cap02_Ex01", "Cap02_Ex01\Cap02_Ex01.csproj", "{928CC40C-5463-4A46-9900-651502D91FF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{1F847BB1-5A3E-4D16-B43F-B9AAF1649DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F847BB1-5A3E-4D16-B43F-B9AAF1649DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F847BB1-5A3E-4D16-B43F-B9AAF1649DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928CC40C-5463-4A46-9900-651502D91FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928CC40C-5463-4A46-9900-651502D91FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928CC40C-5463-4A46-9900-651502D91FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928CC40C-5463-4A46-9900-651502D91FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
