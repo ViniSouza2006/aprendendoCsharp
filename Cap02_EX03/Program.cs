@@ -23,6 +23,7 @@ namespace Cap02_EX03
             TD = (PD / 100) * SB;
             SL = SB - TD;
 
+
             Console.WriteLine();
             Console.WriteLine("Salario liquido ............: ");
             Console.WriteLine(SL.ToString("##,##0.00"));
