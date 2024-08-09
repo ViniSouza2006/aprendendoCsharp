@@ -30,7 +30,7 @@ namespace Cap02_EX03
 
             Console.WriteLine();
             Console.WriteLine("Tecla <Enter> para encerrar... ");
-            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }

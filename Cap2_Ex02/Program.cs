@@ -10,10 +10,13 @@ namespace Cap2_Ex02
     {
         static void Main(string[] args)
         {
-            int A, B, R,;
+            int A, B, R;
 
             Console.WriteLine("Entre 0 1o. valor: ");
             A = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entre o 2o. valor: ");
+            B = int.Parse(Console.ReadLine());
 
             R = A + B;
 
@@ -22,7 +25,7 @@ namespace Cap2_Ex02
 
             Console.WriteLine();
             Console.WriteLine("Tecla <Enter> para continuar... ");
-            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }

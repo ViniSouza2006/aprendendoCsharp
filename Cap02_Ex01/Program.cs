@@ -15,7 +15,6 @@ namespace Cap02_Ex01
             Console.Write("Entre seu nome");
             NOME = Console.ReadLine();
             Console.Write("Ola, " + NOME);
-
             Console.WriteLine("");
             Console.WriteLine("Tecle <Enter> para encerrar... ");
             Console.ReadLine();
