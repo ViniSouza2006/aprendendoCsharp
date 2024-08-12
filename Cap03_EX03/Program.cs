@@ -16,13 +16,13 @@ namespace Cap03_EX03
             NUMERO = int.Parse(Console.ReadLine());
 
             Console.WriteLine();
-            if (NUMERO >= 20 && NUMERO <= 90)//<- Se NUMERO for Maior que 20 ou igual (&& = e) ou NUMERO for menor que 90 ou igual execute o codigo abaixo
+            if (NUMERO >= 20 && NUMERO <= 90)//1. Se NUMERO for Maior que 20 ou igual (&& = e) ou NUMERO for menor que 90 ou igual execute o codigo abaixo
                 Console.WriteLine("O valor esta entre 20 e 90");
-            else // <- Senão se o valor for menor que 20 ou maior que 90 execute o codigo abaixo 
+            else //2. Senão se o valor for menor que 20 ou maior que 90 execute o codigo abaixo 
                 Console.WriteLine("O valor nao esta entre 20 e 90");
 
             Console.WriteLine();
-            Console.Write("Tecle <Enter> para encerrar...");// Escreva
+            Console.Write("Tecle <Enter> para encerrar...");// Escreva texto
             Console.ReadLine();
         }
     }

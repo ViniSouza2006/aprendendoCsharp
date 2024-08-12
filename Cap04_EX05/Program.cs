@@ -23,10 +23,10 @@ namespace Cap04_EX05
             SEXO2 = Console.ReadLine();
 
             Console.WriteLine();
-            if (SEXO1 == "M" ^ SEXO2 == "M")// IF = (se) ^ = (Operador XOR se o Valor 1 for <> de Valor 2 então será verdadeiro senao sera falso)
-                Console.WriteLine(NOME1 + " danca com " + NOME2);
-            else
-                Console.WriteLine(NOME1 + " nao danca com " + NOME2);
+            if (SEXO1 == "M" ^ SEXO2 == "M")//1. IF = (se) ^ = (Operador XOR se o Valor 1 for <> de Valor 2 então será verdadeiro senao sera falso)
+                Console.WriteLine(NOME1 + " danca com " + NOME2);//Variavel1 + Texto + Variavel2 se Verdadeiro
+            else//Senão
+                Console.WriteLine(NOME1 + " nao danca com " + NOME2);//Variavel1 + Texto + Variavel2 se Falso
 
             Console.WriteLine();
             Console.Write("Tecle <Enter> para encerrar... ");
