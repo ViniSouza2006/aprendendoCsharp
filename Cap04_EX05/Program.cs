@@ -4,33 +4,45 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/**
+* Programa exemplo para cálculo de tabuada
+* de um valor númerico qualquer fornecido a partir
+* do terclado para a operação em modo console.
+*\
+/*
+*Programa ......: Tabuada
+*Autor(es)......: Augusto Manzano
+*Data ..........: 10/06/2010
+*Versão ........: 2.0
+*Revísão .......: 25/07/2010
+*/
+
 namespace Cap04_EX05
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string NOME1, NOME2, SEXO1, SEXO2;
-
-            Console.Write("Entre o 1o.nome .........: ");
-            NOME1 = Console.ReadLine();
-            Console.Write("Entre o sexo do 1o nome ..: ");
-            SEXO1 = Console.ReadLine();
-
-            Console.Write("Entre o 2o.nome .........: ");
-            NOME2 = Console.ReadLine();
-            Console.Write("Entre o sexo do 2o.nome ..: ");
-            SEXO2 = Console.ReadLine();
-
+            int N, I, R;
+            Console.WriteLine("PROGRAMA - TABUADA - v2.0");
             Console.WriteLine();
-            if (SEXO1 == "M" ^ SEXO2 == "M")//1. IF = (se) ^ = (Operador XOR se o Valor 1 for <> de Valor 2 então será verdadeiro senao sera falso)
-                Console.WriteLine(NOME1 + " danca com " + NOME2);//Variavel1 + Texto + Variavel2 se Verdadeiro
-            else//Senão
-                Console.WriteLine(NOME1 + " nao danca com " + NOME2);//Variavel1 + Texto + Variavel2 se Falso
-
+            Console.Write("Informe o valor: ");
+            N = int.Parse(Console.ReadLine());
             Console.WriteLine();
-            Console.Write("Tecle <Enter> para encerrar... ");
-            Console.ReadLine();
+
+            for (I = 1; I <= 10; I++)
+            {
+                //Cálculo da tabuada propríamente díto
+                R = N * I;
+                //Apresentção da tabuada no formato: N X I - R
+                Console.WriteLine("{0,2} X {1,2} = {2,3}", N, I, R);
+            }
+                
+                Console.WriteLine();
+                Console.WriteLine("Tecle algo para encerrar... ");
+                Console.ReadKey();
+
+            
 
         }
     }
