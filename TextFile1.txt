@@ -1,3 +1,28 @@
 Para adicionar um Arquivo.txt
 Clique com o botão direito em cima da solução
 Ache o botão adicionar Novo Item e selecione o Arquivo.txt
+
+O Csharp lê da Direita para esquerda
+
+WRITE = Em C#, o método Write da classe Console
+é usado para escrever texto no console sem adicionar uma nova linha no final.
+
+WRITELINE = O método WriteLine da classe Console 
+é usado para escrever texto no console e, em seguida, vai a próxima linha.
+
+READLINE = O método ReadLine da classe Console 
+é usado para ler o teclado (O que o usuario vai escrever).
+
+INT.PARSE = O método int.Parse é usado para converter
+uma string que representa um número em um valor do tipo int.
+
+FLOAT.PARSE = Assim como int.Parse, o método float.Parse lançará uma exceção se a 
+string não puder ser convertida para um número de ponto flutuante válido.
+
+IF = SE
+
+ELSE = SENÃO ela permite que você defina um caminho de 
+execução para quando a condição inicial não for atendida.
+
+&& = OU isso significa que, se a primeira expressão for falsa,
+a segunda expressão não será avaliada, pois o resultado final já será false

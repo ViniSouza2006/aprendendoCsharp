@@ -13,13 +13,13 @@ namespace Cap03_EX10
             int MES;
 
             Console.Write("Entre o mes (Numerico): ");
-            MES = int.Parse(Console.ReadLine());
+            MES = int.Parse(Console.ReadLine());//MES é convertido para um >[Número Inteiro]<
 
             Console.WriteLine();
             switch (MES)
                 //SWITCH = È usado para selecionar um dos muitos blocos de código a serem executados
-                //O Valor SWITCH sera testado em Uma CASE com um Valor dentro do SWITCH
-                //Se o Valor Ter correspondência O bloco de código associado a ela será executado
+                //O Valor SWITCH sera testado em Uma CASE dentro do SWITCH
+                //Se o Valor Ter correspondência Com o VALOR dentro da CASE O bloco de código associado a ela será executado
                 //Assim o BREAK ira quebrar a continuação da execução do bloco de código e saíra do bloco SWITCH
             {
                 case 1: Console.WriteLine("Janeiro"); break;
